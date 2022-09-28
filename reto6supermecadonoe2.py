@@ -7,7 +7,7 @@ else:
     cantidadproductos=int(input("ingrese la cantidad de productos adquiridos \n"))
     precioproducto=200000
     total=cantidadproductos*precioproducto
-
+    compra=cantidadproductos*precioproducto
 descuento=randint(1, 4)
 
 if total>=50000:
@@ -32,7 +32,7 @@ elif descuento==4:
     print("te la rifaste, salio bolitablanca,llevas tu compra totalmente gratis,Felicidades...")
 else:
     print(f"que bien el juego escogio {descuento}")
-else:
+
 print("no fuiste elegido para nuestra promocion, su total a pagar es ",compra)
 if descuento==1 or descuento==2 or descuento==3:
     valorrecibido=int(input("ingresa el valor con el que deseas cancelar"))
